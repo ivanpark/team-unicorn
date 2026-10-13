@@ -1,0 +1,1610 @@
+{
+  "model": "unchanged Gait Lab 0.4, hypothetical velocity from rectified harmonics, k=1..3, 24 possible freq-phase modes, 2924 multiset designs",
+  "limit": 1000000,
+  "designs": 2924,
+  "evaluations_after_safe_pruning": 3619506,
+  "naive_evaluations": 2923997076,
+  "baseline_validated_99": true,
+  "full_search_crosscheck_targets": 409,
+  "optimized_leg_counts": {
+    "1": 12,
+    "2": 999987
+  },
+  "prime_destinations": 78498,
+  "distinct_design_winners": 6,
+  "design_runs": 888572,
+  "sampled_destinations": [
+    {
+      "n": 2,
+      "prime": true,
+      "design_id": 0,
+      "k": 1,
+      "legs": [
+        [
+          1,
+          0
+        ]
+      ],
+      "advance": 3.183079,
+      "score": 1.2887,
+      "one_leg_time": 1.2887
+    },
+    {
+      "n": 3,
+      "prime": true,
+      "design_id": 0,
+      "k": 1,
+      "legs": [
+        [
+          1,
+          0
+        ]
+      ],
+      "advance": 3.183079,
+      "score": 1.522222,
+      "one_leg_time": 1.522222
+    },
+    {
+      "n": 5,
+      "prime": true,
+      "design_id": 0,
+      "k": 1,
+      "legs": [
+        [
+          1,
+          0
+        ]
+      ],
+      "advance": 3.183079,
+      "score": 3.249712,
+      "one_leg_time": 3.249712
+    },
+    {
+      "n": 7,
+      "prime": true,
+      "design_id": 0,
+      "k": 1,
+      "legs": [
+        [
+          1,
+          0
+        ]
+      ],
+      "advance": 3.183079,
+      "score": 4.345094,
+      "one_leg_time": 4.345094
+    },
+    {
+      "n": 11,
+      "prime": true,
+      "design_id": 1,
+      "k": 1,
+      "legs": [
+        [
+          1,
+          1
+        ]
+      ],
+      "advance": 3.183079,
+      "score": 7.036262,
+      "one_leg_time": 7.036262
+    },
+    {
+      "n": 17,
+      "prime": true,
+      "design_id": 29,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "advance": 4.410723,
+      "score": 9.992666,
+      "one_leg_time": 10.935797
+    },
+    {
+      "n": 25,
+      "prime": false,
+      "design_id": 29,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "advance": 4.410723,
+      "score": 14.139954,
+      "one_leg_time": 15.445921
+    },
+    {
+      "n": 37,
+      "prime": true,
+      "design_id": 50,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "advance": 4.501553,
+      "score": 20.073206,
+      "one_leg_time": 23.28577
+    },
+    {
+      "n": 50,
+      "prime": false,
+      "design_id": 26,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "advance": 4.501553,
+      "score": 26.539548,
+      "one_leg_time": 31.342275
+    },
+    {
+      "n": 97,
+      "prime": true,
+      "design_id": 26,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "advance": 4.501553,
+      "score": 49.744496,
+      "one_leg_time": 61.057764
+    },
+    {
+      "n": 100,
+      "prime": false,
+      "design_id": 50,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "advance": 4.501553,
+      "score": 51.142917,
+      "one_leg_time": 62.997162
+    },
+    {
+      "n": 101,
+      "prime": true,
+      "design_id": 26,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "advance": 4.501553,
+      "score": 51.644839,
+      "one_leg_time": 63.357354
+    },
+    {
+      "n": 997,
+      "prime": true,
+      "design_id": 26,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "advance": 4.501553,
+      "score": 493.510716,
+      "one_leg_time": 626.362986
+    },
+    {
+      "n": 1009,
+      "prime": true,
+      "design_id": 50,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "advance": 4.501553,
+      "score": 499.459673,
+      "one_leg_time": 633.580878
+    },
+    {
+      "n": 10000,
+      "prime": false,
+      "design_id": 26,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "advance": 4.501553,
+      "score": 4933.459825,
+      "one_leg_time": 6283.278107
+    },
+    {
+      "n": 10001,
+      "prime": false,
+      "design_id": 50,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "advance": 4.501553,
+      "score": 4933.964123,
+      "one_leg_time": 6283.506914
+    },
+    {
+      "n": 100000,
+      "prime": false,
+      "design_id": 26,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "advance": 4.501553,
+      "score": 49318.218878,
+      "one_leg_time": 62832.280607
+    },
+    {
+      "n": 100001,
+      "prime": false,
+      "design_id": 50,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "advance": 4.501553,
+      "score": 49318.717295,
+      "one_leg_time": 62833.019793
+    },
+    {
+      "n": 500000,
+      "prime": false,
+      "design_id": 50,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "advance": 4.501553,
+      "score": 246583.478494,
+      "one_leg_time": 314161.289521
+    },
+    {
+      "n": 999983,
+      "prime": true,
+      "design_id": 50,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "advance": 4.501553,
+      "score": 493156.662667,
+      "one_leg_time": 628311.49917
+    },
+    {
+      "n": 1000000,
+      "prime": false,
+      "design_id": 26,
+      "k": 2,
+      "legs": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "advance": 4.501553,
+      "score": 493165.040784,
+      "one_leg_time": 628322.402588
+    }
+  ],
+  "overall_total_time": 246583683620.20074,
+  "one_leg_total_time": 314161543545.16016,
+  "overall_reduction_vs_one_leg_pct": 21.510544913414975,
+  "mean_time_opt": 246583.93020413094,
+  "prime_mean_legs": 1.9999235649315905,
+  "composite_mean_legs": 1.999993488883897,
+  "last_100k_counts": {
+    "2": 100000
+  },
+  "blocks": [
+    {
+      "start": 2,
+      "end": 10001,
+      "primes": 1229,
+      "prime_share": 0.1229,
+      "leg_1": 12,
+      "leg_2": 9988,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 2468.4233,
+      "mean_time_reduction_vs_1leg_pct": 21.451
+    },
+    {
+      "start": 10002,
+      "end": 20001,
+      "primes": 1033,
+      "prime_share": 0.1033,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 7400.0559,
+      "mean_time_reduction_vs_1leg_pct": 21.4911
+    },
+    {
+      "start": 20002,
+      "end": 30001,
+      "primes": 983,
+      "prime_share": 0.0983,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 12331.6873,
+      "mean_time_reduction_vs_1leg_pct": 21.4991
+    },
+    {
+      "start": 30002,
+      "end": 40001,
+      "primes": 958,
+      "prime_share": 0.0958,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 17263.3186,
+      "mean_time_reduction_vs_1leg_pct": 21.5025
+    },
+    {
+      "start": 40002,
+      "end": 50001,
+      "primes": 930,
+      "prime_share": 0.093,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 22194.95,
+      "mean_time_reduction_vs_1leg_pct": 21.5045
+    },
+    {
+      "start": 50002,
+      "end": 60001,
+      "primes": 924,
+      "prime_share": 0.0924,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 27126.5813,
+      "mean_time_reduction_vs_1leg_pct": 21.5057
+    },
+    {
+      "start": 60002,
+      "end": 70001,
+      "primes": 879,
+      "prime_share": 0.0879,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 32058.2127,
+      "mean_time_reduction_vs_1leg_pct": 21.5065
+    },
+    {
+      "start": 70002,
+      "end": 80001,
+      "primes": 901,
+      "prime_share": 0.0901,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 36989.8441,
+      "mean_time_reduction_vs_1leg_pct": 21.5071
+    },
+    {
+      "start": 80002,
+      "end": 90001,
+      "primes": 877,
+      "prime_share": 0.0877,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 41921.4754,
+      "mean_time_reduction_vs_1leg_pct": 21.5076
+    },
+    {
+      "start": 90002,
+      "end": 100001,
+      "primes": 878,
+      "prime_share": 0.0878,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 46853.1068,
+      "mean_time_reduction_vs_1leg_pct": 21.508
+    },
+    {
+      "start": 100002,
+      "end": 110001,
+      "primes": 861,
+      "prime_share": 0.0861,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 51784.7381,
+      "mean_time_reduction_vs_1leg_pct": 21.5083
+    },
+    {
+      "start": 110002,
+      "end": 120001,
+      "primes": 848,
+      "prime_share": 0.0848,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 56716.3695,
+      "mean_time_reduction_vs_1leg_pct": 21.5085
+    },
+    {
+      "start": 120002,
+      "end": 130001,
+      "primes": 858,
+      "prime_share": 0.0858,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 61648.0009,
+      "mean_time_reduction_vs_1leg_pct": 21.5087
+    },
+    {
+      "start": 130002,
+      "end": 140001,
+      "primes": 851,
+      "prime_share": 0.0851,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 66579.6322,
+      "mean_time_reduction_vs_1leg_pct": 21.5089
+    },
+    {
+      "start": 140002,
+      "end": 150001,
+      "primes": 839,
+      "prime_share": 0.0839,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 71511.2636,
+      "mean_time_reduction_vs_1leg_pct": 21.5091
+    },
+    {
+      "start": 150002,
+      "end": 160001,
+      "primes": 835,
+      "prime_share": 0.0835,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 76442.8949,
+      "mean_time_reduction_vs_1leg_pct": 21.5092
+    },
+    {
+      "start": 160002,
+      "end": 170001,
+      "primes": 813,
+      "prime_share": 0.0813,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 81374.5263,
+      "mean_time_reduction_vs_1leg_pct": 21.5093
+    },
+    {
+      "start": 170002,
+      "end": 180001,
+      "primes": 846,
+      "prime_share": 0.0846,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 86306.1576,
+      "mean_time_reduction_vs_1leg_pct": 21.5094
+    },
+    {
+      "start": 180002,
+      "end": 190001,
+      "primes": 827,
+      "prime_share": 0.0827,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 91237.789,
+      "mean_time_reduction_vs_1leg_pct": 21.5095
+    },
+    {
+      "start": 190002,
+      "end": 200001,
+      "primes": 814,
+      "prime_share": 0.0814,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 96169.4204,
+      "mean_time_reduction_vs_1leg_pct": 21.5096
+    },
+    {
+      "start": 200002,
+      "end": 210001,
+      "primes": 823,
+      "prime_share": 0.0823,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 101101.0517,
+      "mean_time_reduction_vs_1leg_pct": 21.5097
+    },
+    {
+      "start": 210002,
+      "end": 220001,
+      "primes": 811,
+      "prime_share": 0.0811,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 106032.6831,
+      "mean_time_reduction_vs_1leg_pct": 21.5097
+    },
+    {
+      "start": 220002,
+      "end": 230001,
+      "primes": 819,
+      "prime_share": 0.0819,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 110964.3144,
+      "mean_time_reduction_vs_1leg_pct": 21.5098
+    },
+    {
+      "start": 230002,
+      "end": 240001,
+      "primes": 784,
+      "prime_share": 0.0784,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 115895.9458,
+      "mean_time_reduction_vs_1leg_pct": 21.5099
+    },
+    {
+      "start": 240002,
+      "end": 250001,
+      "primes": 823,
+      "prime_share": 0.0823,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 120827.5772,
+      "mean_time_reduction_vs_1leg_pct": 21.5099
+    },
+    {
+      "start": 250002,
+      "end": 260001,
+      "primes": 793,
+      "prime_share": 0.0793,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 125759.2085,
+      "mean_time_reduction_vs_1leg_pct": 21.51
+    },
+    {
+      "start": 260002,
+      "end": 270001,
+      "primes": 806,
+      "prime_share": 0.0806,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 130690.8399,
+      "mean_time_reduction_vs_1leg_pct": 21.51
+    },
+    {
+      "start": 270002,
+      "end": 280001,
+      "primes": 790,
+      "prime_share": 0.079,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 135622.4712,
+      "mean_time_reduction_vs_1leg_pct": 21.5101
+    },
+    {
+      "start": 280002,
+      "end": 290001,
+      "primes": 791,
+      "prime_share": 0.0791,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 140554.1026,
+      "mean_time_reduction_vs_1leg_pct": 21.5101
+    },
+    {
+      "start": 290002,
+      "end": 300001,
+      "primes": 773,
+      "prime_share": 0.0773,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 145485.734,
+      "mean_time_reduction_vs_1leg_pct": 21.5101
+    },
+    {
+      "start": 300002,
+      "end": 310001,
+      "primes": 803,
+      "prime_share": 0.0803,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 150417.3653,
+      "mean_time_reduction_vs_1leg_pct": 21.5102
+    },
+    {
+      "start": 310002,
+      "end": 320001,
+      "primes": 808,
+      "prime_share": 0.0808,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 155348.9967,
+      "mean_time_reduction_vs_1leg_pct": 21.5102
+    },
+    {
+      "start": 320002,
+      "end": 330001,
+      "primes": 796,
+      "prime_share": 0.0796,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 160280.628,
+      "mean_time_reduction_vs_1leg_pct": 21.5102
+    },
+    {
+      "start": 330002,
+      "end": 340001,
+      "primes": 778,
+      "prime_share": 0.0778,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 165212.2594,
+      "mean_time_reduction_vs_1leg_pct": 21.5102
+    },
+    {
+      "start": 340002,
+      "end": 350001,
+      "primes": 795,
+      "prime_share": 0.0795,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 170143.8908,
+      "mean_time_reduction_vs_1leg_pct": 21.5103
+    },
+    {
+      "start": 350002,
+      "end": 360001,
+      "primes": 780,
+      "prime_share": 0.078,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 175075.5221,
+      "mean_time_reduction_vs_1leg_pct": 21.5103
+    },
+    {
+      "start": 360002,
+      "end": 370001,
+      "primes": 765,
+      "prime_share": 0.0765,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 180007.1535,
+      "mean_time_reduction_vs_1leg_pct": 21.5103
+    },
+    {
+      "start": 370002,
+      "end": 380001,
+      "primes": 778,
+      "prime_share": 0.0778,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 184938.7848,
+      "mean_time_reduction_vs_1leg_pct": 21.5103
+    },
+    {
+      "start": 380002,
+      "end": 390001,
+      "primes": 768,
+      "prime_share": 0.0768,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 189870.4162,
+      "mean_time_reduction_vs_1leg_pct": 21.5104
+    },
+    {
+      "start": 390002,
+      "end": 400001,
+      "primes": 792,
+      "prime_share": 0.0792,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 194802.0475,
+      "mean_time_reduction_vs_1leg_pct": 21.5104
+    },
+    {
+      "start": 400002,
+      "end": 410001,
+      "primes": 754,
+      "prime_share": 0.0754,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 199733.6789,
+      "mean_time_reduction_vs_1leg_pct": 21.5104
+    },
+    {
+      "start": 410002,
+      "end": 420001,
+      "primes": 777,
+      "prime_share": 0.0777,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 204665.3103,
+      "mean_time_reduction_vs_1leg_pct": 21.5104
+    },
+    {
+      "start": 420002,
+      "end": 430001,
+      "primes": 771,
+      "prime_share": 0.0771,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 209596.9416,
+      "mean_time_reduction_vs_1leg_pct": 21.5104
+    },
+    {
+      "start": 430002,
+      "end": 440001,
+      "primes": 779,
+      "prime_share": 0.0779,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 214528.573,
+      "mean_time_reduction_vs_1leg_pct": 21.5105
+    },
+    {
+      "start": 440002,
+      "end": 450001,
+      "primes": 766,
+      "prime_share": 0.0766,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 219460.2043,
+      "mean_time_reduction_vs_1leg_pct": 21.5105
+    },
+    {
+      "start": 450002,
+      "end": 460001,
+      "primes": 751,
+      "prime_share": 0.0751,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 224391.8357,
+      "mean_time_reduction_vs_1leg_pct": 21.5105
+    },
+    {
+      "start": 460002,
+      "end": 470001,
+      "primes": 765,
+      "prime_share": 0.0765,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 229323.4671,
+      "mean_time_reduction_vs_1leg_pct": 21.5105
+    },
+    {
+      "start": 470002,
+      "end": 480001,
+      "primes": 782,
+      "prime_share": 0.0782,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 234255.0984,
+      "mean_time_reduction_vs_1leg_pct": 21.5105
+    },
+    {
+      "start": 480002,
+      "end": 490001,
+      "primes": 762,
+      "prime_share": 0.0762,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 239186.7298,
+      "mean_time_reduction_vs_1leg_pct": 21.5105
+    },
+    {
+      "start": 490002,
+      "end": 500001,
+      "primes": 771,
+      "prime_share": 0.0771,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 244118.3611,
+      "mean_time_reduction_vs_1leg_pct": 21.5105
+    },
+    {
+      "start": 500002,
+      "end": 510001,
+      "primes": 753,
+      "prime_share": 0.0753,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 249049.9925,
+      "mean_time_reduction_vs_1leg_pct": 21.5106
+    },
+    {
+      "start": 510002,
+      "end": 520001,
+      "primes": 770,
+      "prime_share": 0.077,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 253981.6238,
+      "mean_time_reduction_vs_1leg_pct": 21.5106
+    },
+    {
+      "start": 520002,
+      "end": 530001,
+      "primes": 764,
+      "prime_share": 0.0764,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 258913.2552,
+      "mean_time_reduction_vs_1leg_pct": 21.5106
+    },
+    {
+      "start": 530002,
+      "end": 540001,
+      "primes": 747,
+      "prime_share": 0.0747,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 263844.8866,
+      "mean_time_reduction_vs_1leg_pct": 21.5106
+    },
+    {
+      "start": 540002,
+      "end": 550001,
+      "primes": 750,
+      "prime_share": 0.075,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 268776.5179,
+      "mean_time_reduction_vs_1leg_pct": 21.5106
+    },
+    {
+      "start": 550002,
+      "end": 560001,
+      "primes": 750,
+      "prime_share": 0.075,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 273708.1492,
+      "mean_time_reduction_vs_1leg_pct": 21.5106
+    },
+    {
+      "start": 560002,
+      "end": 570001,
+      "primes": 748,
+      "prime_share": 0.0748,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 278639.7806,
+      "mean_time_reduction_vs_1leg_pct": 21.5106
+    },
+    {
+      "start": 570002,
+      "end": 580001,
+      "primes": 769,
+      "prime_share": 0.0769,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 283571.412,
+      "mean_time_reduction_vs_1leg_pct": 21.5106
+    },
+    {
+      "start": 580002,
+      "end": 590001,
+      "primes": 762,
+      "prime_share": 0.0762,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 288503.0433,
+      "mean_time_reduction_vs_1leg_pct": 21.5106
+    },
+    {
+      "start": 590002,
+      "end": 600001,
+      "primes": 747,
+      "prime_share": 0.0747,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 293434.6747,
+      "mean_time_reduction_vs_1leg_pct": 21.5106
+    },
+    {
+      "start": 600002,
+      "end": 610001,
+      "primes": 763,
+      "prime_share": 0.0763,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 298366.3061,
+      "mean_time_reduction_vs_1leg_pct": 21.5106
+    },
+    {
+      "start": 610002,
+      "end": 620001,
+      "primes": 751,
+      "prime_share": 0.0751,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 303297.9374,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 620002,
+      "end": 630001,
+      "primes": 729,
+      "prime_share": 0.0729,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 308229.5688,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 630002,
+      "end": 640001,
+      "primes": 733,
+      "prime_share": 0.0733,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 313161.2001,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 640002,
+      "end": 650001,
+      "primes": 757,
+      "prime_share": 0.0757,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 318092.8315,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 650002,
+      "end": 660001,
+      "primes": 734,
+      "prime_share": 0.0734,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 323024.4628,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 660002,
+      "end": 670001,
+      "primes": 745,
+      "prime_share": 0.0745,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 327956.0942,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 670002,
+      "end": 680001,
+      "primes": 753,
+      "prime_share": 0.0753,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 332887.7256,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 680002,
+      "end": 690001,
+      "primes": 752,
+      "prime_share": 0.0752,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 337819.3569,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 690002,
+      "end": 700001,
+      "primes": 729,
+      "prime_share": 0.0729,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 342750.9883,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 700002,
+      "end": 710001,
+      "primes": 762,
+      "prime_share": 0.0762,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 347682.6196,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 710002,
+      "end": 720001,
+      "primes": 723,
+      "prime_share": 0.0723,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 352614.251,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 720002,
+      "end": 730001,
+      "primes": 760,
+      "prime_share": 0.076,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 357545.8824,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 730002,
+      "end": 740001,
+      "primes": 742,
+      "prime_share": 0.0742,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 362477.5137,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 740002,
+      "end": 750001,
+      "primes": 707,
+      "prime_share": 0.0707,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 367409.1451,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 750002,
+      "end": 760001,
+      "primes": 740,
+      "prime_share": 0.074,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 372340.7764,
+      "mean_time_reduction_vs_1leg_pct": 21.5107
+    },
+    {
+      "start": 760002,
+      "end": 770001,
+      "primes": 755,
+      "prime_share": 0.0755,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 377272.4078,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 770002,
+      "end": 780001,
+      "primes": 735,
+      "prime_share": 0.0735,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 382204.0392,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 780002,
+      "end": 790001,
+      "primes": 738,
+      "prime_share": 0.0738,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 387135.6705,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 790002,
+      "end": 800001,
+      "primes": 745,
+      "prime_share": 0.0745,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 392067.3019,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 800002,
+      "end": 810001,
+      "primes": 732,
+      "prime_share": 0.0732,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 396998.9332,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 810002,
+      "end": 820001,
+      "primes": 733,
+      "prime_share": 0.0733,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 401930.5646,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 820002,
+      "end": 830001,
+      "primes": 745,
+      "prime_share": 0.0745,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 406862.196,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 830002,
+      "end": 840001,
+      "primes": 729,
+      "prime_share": 0.0729,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 411793.8273,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 840002,
+      "end": 850001,
+      "primes": 727,
+      "prime_share": 0.0727,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 416725.4587,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 850002,
+      "end": 860001,
+      "primes": 725,
+      "prime_share": 0.0725,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 421657.09,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 860002,
+      "end": 870001,
+      "primes": 753,
+      "prime_share": 0.0753,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 426588.7214,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 870002,
+      "end": 880001,
+      "primes": 729,
+      "prime_share": 0.0729,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 431520.3527,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 880002,
+      "end": 890001,
+      "primes": 731,
+      "prime_share": 0.0731,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 436451.9841,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 890002,
+      "end": 900001,
+      "primes": 720,
+      "prime_share": 0.072,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 441383.6155,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 900002,
+      "end": 910001,
+      "primes": 751,
+      "prime_share": 0.0751,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 446315.2468,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 910002,
+      "end": 920001,
+      "primes": 708,
+      "prime_share": 0.0708,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 451246.8782,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 920002,
+      "end": 930001,
+      "primes": 740,
+      "prime_share": 0.074,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 456178.5095,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 930002,
+      "end": 940001,
+      "primes": 714,
+      "prime_share": 0.0714,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 461110.1409,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 940002,
+      "end": 950001,
+      "primes": 719,
+      "prime_share": 0.0719,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 466041.7723,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 950002,
+      "end": 960001,
+      "primes": 711,
+      "prime_share": 0.0711,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 470973.4036,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 960002,
+      "end": 970001,
+      "primes": 732,
+      "prime_share": 0.0732,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 26,
+      "mean_score": 475905.035,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 970002,
+      "end": 980001,
+      "primes": 717,
+      "prime_share": 0.0717,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 480836.6663,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 980002,
+      "end": 990001,
+      "primes": 711,
+      "prime_share": 0.0711,
+      "leg_1": 0,
+      "leg_2": 10000,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 485768.2977,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    },
+    {
+      "start": 990002,
+      "end": 1000000,
+      "primes": 720,
+      "prime_share": 0.072007,
+      "leg_1": 0,
+      "leg_2": 9999,
+      "leg_3": 0,
+      "most_common_design_id": 50,
+      "mean_score": 490699.6825,
+      "mean_time_reduction_vs_1leg_pct": 21.5108
+    }
+  ],
+  "asymptotic_fastest_design": 26,
+  "safe_bound_explanation": "Each candidate has 1-second periodic waveform, so |T_inverse(d)-d/advance| <= 1 second. Comparing a lower bound on candidate time to an upper bound on the asymptotically best candidate time gives a provably safe maximum search destination for each design. Full 2924-design brute-force re-evaluation agrees on independent random targets."
+}

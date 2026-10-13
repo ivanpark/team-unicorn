@@ -1,4 +1,3 @@
-<!-- Repository initialisation: document and simulation assets are being prepared for upload. -->
 # Team Unicorn · Number-System Universe Engineering
 
 **자기확장적 정수 우주의 생성 원리 / Generative Principles of a Self-Expanding Integer Universe**

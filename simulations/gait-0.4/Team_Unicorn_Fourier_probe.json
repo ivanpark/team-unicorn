@@ -1,0 +1,2506 @@
+{
+  "assumptions": {
+    "velocity": "v(t)=10*sum_i max(0,sin(2pi*f_i*t+phi_i))/(sqrt(k)*(1+0.30*sum_{i<j}a_i a_j))",
+    "birth": "0.43*k^2+0.028*sum_i f_i^2",
+    "coordination": "travel time multiplied by 1+0.055*k*(k-1)",
+    "final_add": "0.35 seconds",
+    "frequencies": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "phases": [
+      0.0,
+      1.5707963267948966,
+      3.141592653589793,
+      4.71238898038469
+    ],
+    "leg_count": [
+      1,
+      2,
+      3
+    ],
+    "each_prime_label_does_not_enter_motion": "yes, so prime structure cannot be inferred from gait optimization alone"
+  },
+  "candidate_count": 2924,
+  "results": [
+    {
+      "destination": 2,
+      "k": 1,
+      "freqs": [
+        1
+      ],
+      "phase_quarters": [
+        0
+      ],
+      "one_second_distance": 3.183079,
+      "birth_cost": 0.458,
+      "outbound_time": 0.189391,
+      "return_time": 0.291309,
+      "score": 1.2887,
+      "prime_destination": true
+    },
+    {
+      "destination": 3,
+      "k": 1,
+      "freqs": [
+        1
+      ],
+      "phase_quarters": [
+        0
+      ],
+      "one_second_distance": 3.183079,
+      "birth_cost": 0.458,
+      "outbound_time": 0.291309,
+      "return_time": 0.422913,
+      "score": 1.522222,
+      "prime_destination": true
+    },
+    {
+      "destination": 4,
+      "k": 1,
+      "freqs": [
+        1
+      ],
+      "phase_quarters": [
+        0
+      ],
+      "one_second_distance": 3.183079,
+      "birth_cost": 0.458,
+      "outbound_time": 0.422913,
+      "return_time": 1.169098,
+      "score": 2.40001,
+      "prime_destination": false
+    },
+    {
+      "destination": 5,
+      "k": 1,
+      "freqs": [
+        1
+      ],
+      "phase_quarters": [
+        0
+      ],
+      "one_second_distance": 3.183079,
+      "birth_cost": 0.458,
+      "outbound_time": 1.169098,
+      "return_time": 1.272615,
+      "score": 3.249712,
+      "prime_destination": true
+    },
+    {
+      "destination": 6,
+      "k": 1,
+      "freqs": [
+        1
+      ],
+      "phase_quarters": [
+        0
+      ],
+      "one_second_distance": 3.183079,
+      "birth_cost": 0.458,
+      "outbound_time": 1.272615,
+      "return_time": 1.389857,
+      "score": 3.470472,
+      "prime_destination": false
+    },
+    {
+      "destination": 7,
+      "k": 1,
+      "freqs": [
+        1
+      ],
+      "phase_quarters": [
+        0
+      ],
+      "one_second_distance": 3.183079,
+      "birth_cost": 0.458,
+      "outbound_time": 1.389857,
+      "return_time": 2.147237,
+      "score": 4.345094,
+      "prime_destination": true
+    },
+    {
+      "destination": 8,
+      "k": 1,
+      "freqs": [
+        1
+      ],
+      "phase_quarters": [
+        0
+      ],
+      "one_second_distance": 3.183079,
+      "birth_cost": 0.458,
+      "outbound_time": 2.147237,
+      "return_time": 2.254231,
+      "score": 5.209468,
+      "prime_destination": false
+    },
+    {
+      "destination": 9,
+      "k": 1,
+      "freqs": [
+        1
+      ],
+      "phase_quarters": [
+        0
+      ],
+      "one_second_distance": 3.183079,
+      "birth_cost": 0.458,
+      "outbound_time": 2.254231,
+      "return_time": 2.363646,
+      "score": 5.425877,
+      "prime_destination": false
+    },
+    {
+      "destination": 10,
+      "k": 1,
+      "freqs": [
+        1
+      ],
+      "phase_quarters": [
+        0
+      ],
+      "one_second_distance": 3.183079,
+      "birth_cost": 0.458,
+      "outbound_time": 2.363646,
+      "return_time": 3.122807,
+      "score": 6.294453,
+      "prime_destination": false
+    },
+    {
+      "destination": 11,
+      "k": 1,
+      "freqs": [
+        1
+      ],
+      "phase_quarters": [
+        1
+      ],
+      "one_second_distance": 3.183079,
+      "birth_cost": 0.458,
+      "outbound_time": 3.045702,
+      "return_time": 3.182559,
+      "score": 7.036262,
+      "prime_destination": true
+    },
+    {
+      "destination": 12,
+      "k": 1,
+      "freqs": [
+        1
+      ],
+      "phase_quarters": [
+        0
+      ],
+      "one_second_distance": 3.183079,
+      "birth_cost": 0.458,
+      "outbound_time": 3.235904,
+      "return_time": 3.340764,
+      "score": 7.384668,
+      "prime_destination": false
+    },
+    {
+      "destination": 13,
+      "k": 1,
+      "freqs": [
+        1
+      ],
+      "phase_quarters": [
+        0
+      ],
+      "one_second_distance": 3.183079,
+      "birth_cost": 0.458,
+      "outbound_time": 3.340764,
+      "return_time": 4.093651,
+      "score": 8.242415,
+      "prime_destination": true
+    },
+    {
+      "destination": 14,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 2.842986,
+      "return_time": 3.155429,
+      "score": 8.78424,
+      "prime_destination": false
+    },
+    {
+      "destination": 15,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        1
+      ],
+      "one_second_distance": 4.300423,
+      "birth_cost": 1.776,
+      "outbound_time": 3.133502,
+      "return_time": 3.256944,
+      "score": 9.219395,
+      "prime_destination": false
+    },
+    {
+      "destination": 16,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        1
+      ],
+      "one_second_distance": 4.300423,
+      "birth_cost": 1.776,
+      "outbound_time": 3.256944,
+      "return_time": 3.44106,
+      "score": 9.560785,
+      "prime_destination": false
+    },
+    {
+      "destination": 17,
+      "k": 2,
+      "freqs": [
+        1,
+        2
+      ],
+      "phase_quarters": [
+        0,
+        1
+      ],
+      "one_second_distance": 4.410723,
+      "birth_cost": 1.86,
+      "outbound_time": 3.429421,
+      "return_time": 3.58199,
+      "score": 9.992666,
+      "prime_destination": true
+    },
+    {
+      "destination": 18,
+      "k": 2,
+      "freqs": [
+        1,
+        2
+      ],
+      "phase_quarters": [
+        0,
+        1
+      ],
+      "one_second_distance": 4.410723,
+      "birth_cost": 1.86,
+      "outbound_time": 3.58199,
+      "return_time": 4.048237,
+      "score": 10.679552,
+      "prime_destination": false
+    },
+    {
+      "destination": 19,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 3.999121,
+      "return_time": 4.172261,
+      "score": 11.196235,
+      "prime_destination": true
+    },
+    {
+      "destination": 20,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        1
+      ],
+      "one_second_distance": 4.300423,
+      "birth_cost": 1.776,
+      "outbound_time": 4.216583,
+      "return_time": 4.365839,
+      "score": 11.652488,
+      "prime_destination": false
+    },
+    {
+      "destination": 21,
+      "k": 2,
+      "freqs": [
+        1,
+        2
+      ],
+      "phase_quarters": [
+        0,
+        1
+      ],
+      "one_second_distance": 4.410723,
+      "birth_cost": 1.86,
+      "outbound_time": 4.359466,
+      "return_time": 4.510176,
+      "score": 12.055302,
+      "prime_destination": false
+    },
+    {
+      "destination": 22,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 4.694824,
+      "return_time": 4.84246,
+      "score": 12.712386,
+      "prime_destination": false
+    },
+    {
+      "destination": 23,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 4.84246,
+      "return_time": 5.154898,
+      "score": 13.223067,
+      "prime_destination": true
+    },
+    {
+      "destination": 24,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 5.072049,
+      "return_time": 5.382281,
+      "score": 13.730306,
+      "prime_destination": false
+    },
+    {
+      "destination": 25,
+      "k": 2,
+      "freqs": [
+        1,
+        2
+      ],
+      "phase_quarters": [
+        0,
+        1
+      ],
+      "one_second_distance": 4.410723,
+      "birth_cost": 1.86,
+      "outbound_time": 5.293491,
+      "return_time": 5.454216,
+      "score": 14.139954,
+      "prime_destination": false
+    },
+    {
+      "destination": 26,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 5.534415,
+      "return_time": 5.822917,
+      "score": 14.732639,
+      "prime_destination": false
+    },
+    {
+      "destination": 27,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 5.766444,
+      "return_time": 5.979514,
+      "score": 15.164013,
+      "prime_destination": false
+    },
+    {
+      "destination": 28,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 5.998682,
+      "return_time": 6.171333,
+      "score": 15.634717,
+      "prime_destination": false
+    },
+    {
+      "destination": 29,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 6.230904,
+      "return_time": 6.389596,
+      "score": 16.134754,
+      "prime_destination": true
+    },
+    {
+      "destination": 30,
+      "k": 2,
+      "freqs": [
+        1,
+        2
+      ],
+      "phase_quarters": [
+        0,
+        1
+      ],
+      "one_second_distance": 4.410723,
+      "birth_cost": 1.86,
+      "outbound_time": 6.393059,
+      "return_time": 6.536687,
+      "score": 16.562018,
+      "prime_destination": false
+    },
+    {
+      "destination": 31,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 6.694357,
+      "return_time": 6.841935,
+      "score": 17.151285,
+      "prime_destination": true
+    },
+    {
+      "destination": 32,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 6.841935,
+      "return_time": 7.154366,
+      "score": 17.661895,
+      "prime_destination": false
+    },
+    {
+      "destination": 33,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 7.071561,
+      "return_time": 7.381685,
+      "score": 18.169104,
+      "prime_destination": false
+    },
+    {
+      "destination": 34,
+      "k": 2,
+      "freqs": [
+        1,
+        2
+      ],
+      "phase_quarters": [
+        0,
+        1
+      ],
+      "one_second_distance": 4.410723,
+      "birth_cost": 1.86,
+      "outbound_time": 7.320485,
+      "return_time": 7.478081,
+      "score": 18.636408,
+      "prime_destination": false
+    },
+    {
+      "destination": 35,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 7.533966,
+      "return_time": 7.821919,
+      "score": 19.171032,
+      "prime_destination": false
+    },
+    {
+      "destination": 36,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 7.766003,
+      "return_time": 7.976331,
+      "score": 19.59999,
+      "prime_destination": false
+    },
+    {
+      "destination": 37,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 7.998243,
+      "return_time": 8.170412,
+      "score": 20.073206,
+      "prime_destination": true
+    },
+    {
+      "destination": 38,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 8.230461,
+      "return_time": 8.388909,
+      "score": 20.573501,
+      "prime_destination": false
+    },
+    {
+      "destination": 39,
+      "k": 2,
+      "freqs": [
+        1,
+        2
+      ],
+      "phase_quarters": [
+        0,
+        1
+      ],
+      "one_second_distance": 4.410723,
+      "birth_cost": 1.86,
+      "outbound_time": 8.421574,
+      "return_time": 8.56897,
+      "score": 21.069505,
+      "prime_destination": false
+    },
+    {
+      "destination": 40,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 8.693889,
+      "return_time": 8.841411,
+      "score": 21.590183,
+      "prime_destination": false
+    },
+    {
+      "destination": 41,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 8.841411,
+      "return_time": 9.153833,
+      "score": 22.100721,
+      "prime_destination": true
+    },
+    {
+      "destination": 42,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 9.071074,
+      "return_time": 9.381087,
+      "score": 22.607898,
+      "prime_destination": false
+    },
+    {
+      "destination": 43,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 9.301918,
+      "return_time": 9.604788,
+      "score": 23.112444,
+      "prime_destination": true
+    },
+    {
+      "destination": 44,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 9.533516,
+      "return_time": 9.820908,
+      "score": 23.609411,
+      "prime_destination": false
+    },
+    {
+      "destination": 45,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 9.765561,
+      "return_time": 9.973531,
+      "score": 24.036392,
+      "prime_destination": false
+    },
+    {
+      "destination": 46,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 9.997804,
+      "return_time": 10.169498,
+      "score": 24.511705,
+      "prime_destination": false
+    },
+    {
+      "destination": 47,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 10.230018,
+      "return_time": 10.388229,
+      "score": 25.012254,
+      "prime_destination": true
+    },
+    {
+      "destination": 48,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 10.461977,
+      "return_time": 10.613025,
+      "score": 25.519253,
+      "prime_destination": false
+    },
+    {
+      "destination": 49,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 10.693421,
+      "return_time": 10.840889,
+      "score": 26.029084,
+      "prime_destination": false
+    },
+    {
+      "destination": 50,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 10.840889,
+      "return_time": 11.153298,
+      "score": 26.539548,
+      "prime_destination": false
+    },
+    {
+      "destination": 51,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 11.070587,
+      "return_time": 11.380488,
+      "score": 27.046694,
+      "prime_destination": false
+    },
+    {
+      "destination": 52,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 11.301454,
+      "return_time": 11.604069,
+      "score": 27.551131,
+      "prime_destination": false
+    },
+    {
+      "destination": 53,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 11.533067,
+      "return_time": 11.819879,
+      "score": 28.047771,
+      "prime_destination": true
+    },
+    {
+      "destination": 54,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 11.76512,
+      "return_time": 11.970999,
+      "score": 28.473092,
+      "prime_destination": false
+    },
+    {
+      "destination": 55,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 11.997364,
+      "return_time": 12.168598,
+      "score": 28.950219,
+      "prime_destination": false
+    },
+    {
+      "destination": 56,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 12.229576,
+      "return_time": 12.387549,
+      "score": 29.451008,
+      "prime_destination": false
+    },
+    {
+      "destination": 57,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 12.461525,
+      "return_time": 12.612446,
+      "score": 29.958107,
+      "prime_destination": false
+    },
+    {
+      "destination": 58,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 12.692952,
+      "return_time": 12.840367,
+      "score": 30.467984,
+      "prime_destination": false
+    },
+    {
+      "destination": 59,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 12.840367,
+      "return_time": 13.152764,
+      "score": 30.978375,
+      "prime_destination": true
+    },
+    {
+      "destination": 60,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 13.070101,
+      "return_time": 13.379885,
+      "score": 31.485485,
+      "prime_destination": false
+    },
+    {
+      "destination": 61,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 13.300992,
+      "return_time": 13.603343,
+      "score": 31.989812,
+      "prime_destination": true
+    },
+    {
+      "destination": 62,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 13.532619,
+      "return_time": 13.818838,
+      "score": 32.486117,
+      "prime_destination": false
+    },
+    {
+      "destination": 63,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 13.764679,
+      "return_time": 13.968672,
+      "score": 32.910019,
+      "prime_destination": false
+    },
+    {
+      "destination": 64,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 13.996925,
+      "return_time": 14.167705,
+      "score": 33.388739,
+      "prime_destination": false
+    },
+    {
+      "destination": 65,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 14.229133,
+      "return_time": 14.386876,
+      "score": 33.889769,
+      "prime_destination": false
+    },
+    {
+      "destination": 66,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 14.461073,
+      "return_time": 14.61187,
+      "score": 34.396967,
+      "prime_destination": false
+    },
+    {
+      "destination": 67,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 14.692483,
+      "return_time": 14.839847,
+      "score": 34.906886,
+      "prime_destination": true
+    },
+    {
+      "destination": 68,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 14.839847,
+      "return_time": 15.152226,
+      "score": 35.417201,
+      "prime_destination": false
+    },
+    {
+      "destination": 69,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 15.069616,
+      "return_time": 15.379282,
+      "score": 35.924277,
+      "prime_destination": false
+    },
+    {
+      "destination": 70,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 15.300529,
+      "return_time": 15.602616,
+      "score": 36.428491,
+      "prime_destination": false
+    },
+    {
+      "destination": 71,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 15.53217,
+      "return_time": 15.817784,
+      "score": 36.924449,
+      "prime_destination": true
+    },
+    {
+      "destination": 72,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 15.764238,
+      "return_time": 15.966496,
+      "score": 37.347115,
+      "prime_destination": false
+    },
+    {
+      "destination": 73,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 15.996486,
+      "return_time": 16.16682,
+      "score": 37.827269,
+      "prime_destination": true
+    },
+    {
+      "destination": 74,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 16.228689,
+      "return_time": 16.386203,
+      "score": 38.32853,
+      "prime_destination": false
+    },
+    {
+      "destination": 75,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 16.46062,
+      "return_time": 16.611294,
+      "score": 38.835825,
+      "prime_destination": false
+    },
+    {
+      "destination": 76,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 16.692013,
+      "return_time": 16.839327,
+      "score": 39.345788,
+      "prime_destination": false
+    },
+    {
+      "destination": 77,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 16.839327,
+      "return_time": 17.151688,
+      "score": 39.856027,
+      "prime_destination": false
+    },
+    {
+      "destination": 78,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 17.069131,
+      "return_time": 17.378675,
+      "score": 40.363065,
+      "prime_destination": false
+    },
+    {
+      "destination": 79,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 17.300066,
+      "return_time": 17.601882,
+      "score": 40.867163,
+      "prime_destination": true
+    },
+    {
+      "destination": 80,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 17.531722,
+      "return_time": 17.816715,
+      "score": 41.362764,
+      "prime_destination": false
+    },
+    {
+      "destination": 81,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 17.763797,
+      "return_time": 17.964459,
+      "score": 41.784364,
+      "prime_destination": false
+    },
+    {
+      "destination": 82,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 17.996046,
+      "return_time": 18.165945,
+      "score": 42.265811,
+      "prime_destination": false
+    },
+    {
+      "destination": 83,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 18.228246,
+      "return_time": 18.385535,
+      "score": 42.767298,
+      "prime_destination": true
+    },
+    {
+      "destination": 84,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 18.460166,
+      "return_time": 18.610722,
+      "score": 43.274686,
+      "prime_destination": false
+    },
+    {
+      "destination": 85,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 18.691543,
+      "return_time": 18.838808,
+      "score": 43.78469,
+      "prime_destination": false
+    },
+    {
+      "destination": 86,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 18.838808,
+      "return_time": 19.151149,
+      "score": 44.294852,
+      "prime_destination": false
+    },
+    {
+      "destination": 87,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 19.068648,
+      "return_time": 19.378067,
+      "score": 44.801853,
+      "prime_destination": false
+    },
+    {
+      "destination": 88,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 19.299605,
+      "return_time": 19.601145,
+      "score": 45.305832,
+      "prime_destination": false
+    },
+    {
+      "destination": 89,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 19.531274,
+      "return_time": 19.815625,
+      "score": 45.801058,
+      "prime_destination": true
+    },
+    {
+      "destination": 90,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 19.763356,
+      "return_time": 19.962521,
+      "score": 46.221724,
+      "prime_destination": false
+    },
+    {
+      "destination": 91,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 19.995607,
+      "return_time": 20.165077,
+      "score": 46.704358,
+      "prime_destination": false
+    },
+    {
+      "destination": 92,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 20.227803,
+      "return_time": 20.384869,
+      "score": 47.206066,
+      "prime_destination": false
+    },
+    {
+      "destination": 93,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 20.459713,
+      "return_time": 20.61015,
+      "score": 47.713549,
+      "prime_destination": false
+    },
+    {
+      "destination": 94,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 20.691072,
+      "return_time": 20.838292,
+      "score": 48.223593,
+      "prime_destination": false
+    },
+    {
+      "destination": 95,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 20.838292,
+      "return_time": 21.150607,
+      "score": 48.733678,
+      "prime_destination": false
+    },
+    {
+      "destination": 96,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 21.068164,
+      "return_time": 21.377456,
+      "score": 49.240638,
+      "prime_destination": false
+    },
+    {
+      "destination": 97,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 21.299144,
+      "return_time": 21.600402,
+      "score": 49.744496,
+      "prime_destination": true
+    },
+    {
+      "destination": 98,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 21.530826,
+      "return_time": 21.814519,
+      "score": 50.239333,
+      "prime_destination": false
+    },
+    {
+      "destination": 99,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        0,
+        2
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 21.762915,
+      "return_time": 21.960687,
+      "score": 50.659199,
+      "prime_destination": false
+    },
+    {
+      "destination": 100,
+      "k": 2,
+      "freqs": [
+        1,
+        1
+      ],
+      "phase_quarters": [
+        1,
+        3
+      ],
+      "one_second_distance": 4.501553,
+      "birth_cost": 1.776,
+      "outbound_time": 21.995167,
+      "return_time": 22.164217,
+      "score": 51.142917,
+      "prime_destination": false
+    }
+  ],
+  "fourier_sieve": [
+    {
+      "integer": 2,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 3,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 4,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 5,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 6,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 7,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 8,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 9,
+      "prime": false,
+      "divisibility_frequencies": [
+        3
+      ]
+    },
+    {
+      "integer": 10,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 11,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 12,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3
+      ]
+    },
+    {
+      "integer": 13,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 14,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 15,
+      "prime": false,
+      "divisibility_frequencies": [
+        3
+      ]
+    },
+    {
+      "integer": 16,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4
+      ]
+    },
+    {
+      "integer": 17,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 18,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3
+      ]
+    },
+    {
+      "integer": 19,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 20,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4
+      ]
+    },
+    {
+      "integer": 21,
+      "prime": false,
+      "divisibility_frequencies": [
+        3
+      ]
+    },
+    {
+      "integer": 22,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 23,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 24,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "integer": 25,
+      "prime": false,
+      "divisibility_frequencies": [
+        5
+      ]
+    },
+    {
+      "integer": 26,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 27,
+      "prime": false,
+      "divisibility_frequencies": [
+        3
+      ]
+    },
+    {
+      "integer": 28,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4
+      ]
+    },
+    {
+      "integer": 29,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 30,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "integer": 31,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 32,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4
+      ]
+    },
+    {
+      "integer": 33,
+      "prime": false,
+      "divisibility_frequencies": [
+        3
+      ]
+    },
+    {
+      "integer": 34,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 35,
+      "prime": false,
+      "divisibility_frequencies": [
+        5
+      ]
+    },
+    {
+      "integer": 36,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "integer": 37,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 38,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 39,
+      "prime": false,
+      "divisibility_frequencies": [
+        3
+      ]
+    },
+    {
+      "integer": 40,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "integer": 41,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 42,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "integer": 43,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 44,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4
+      ]
+    },
+    {
+      "integer": 45,
+      "prime": false,
+      "divisibility_frequencies": [
+        3,
+        5
+      ]
+    },
+    {
+      "integer": 46,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 47,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 48,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "integer": 49,
+      "prime": false,
+      "divisibility_frequencies": [
+        7
+      ]
+    },
+    {
+      "integer": 50,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        5
+      ]
+    },
+    {
+      "integer": 51,
+      "prime": false,
+      "divisibility_frequencies": [
+        3
+      ]
+    },
+    {
+      "integer": 52,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4
+      ]
+    },
+    {
+      "integer": 53,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 54,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "integer": 55,
+      "prime": false,
+      "divisibility_frequencies": [
+        5
+      ]
+    },
+    {
+      "integer": 56,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4,
+        7
+      ]
+    },
+    {
+      "integer": 57,
+      "prime": false,
+      "divisibility_frequencies": [
+        3
+      ]
+    },
+    {
+      "integer": 58,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 59,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 60,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "integer": 61,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 62,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 63,
+      "prime": false,
+      "divisibility_frequencies": [
+        3,
+        7
+      ]
+    },
+    {
+      "integer": 64,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4,
+        8
+      ]
+    },
+    {
+      "integer": 65,
+      "prime": false,
+      "divisibility_frequencies": [
+        5
+      ]
+    },
+    {
+      "integer": 66,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "integer": 67,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 68,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4
+      ]
+    },
+    {
+      "integer": 69,
+      "prime": false,
+      "divisibility_frequencies": [
+        3
+      ]
+    },
+    {
+      "integer": 70,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        5,
+        7
+      ]
+    },
+    {
+      "integer": 71,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 72,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3,
+        4,
+        6,
+        8
+      ]
+    },
+    {
+      "integer": 73,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 74,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 75,
+      "prime": false,
+      "divisibility_frequencies": [
+        3,
+        5
+      ]
+    },
+    {
+      "integer": 76,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4
+      ]
+    },
+    {
+      "integer": 77,
+      "prime": false,
+      "divisibility_frequencies": [
+        7
+      ]
+    },
+    {
+      "integer": 78,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "integer": 79,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 80,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4,
+        5,
+        8
+      ]
+    },
+    {
+      "integer": 81,
+      "prime": false,
+      "divisibility_frequencies": [
+        3,
+        9
+      ]
+    },
+    {
+      "integer": 82,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 83,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 84,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "integer": 85,
+      "prime": false,
+      "divisibility_frequencies": [
+        5
+      ]
+    },
+    {
+      "integer": 86,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 87,
+      "prime": false,
+      "divisibility_frequencies": [
+        3
+      ]
+    },
+    {
+      "integer": 88,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4,
+        8
+      ]
+    },
+    {
+      "integer": 89,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 90,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3,
+        5,
+        6,
+        9
+      ]
+    },
+    {
+      "integer": 91,
+      "prime": false,
+      "divisibility_frequencies": [
+        7
+      ]
+    },
+    {
+      "integer": 92,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4
+      ]
+    },
+    {
+      "integer": 93,
+      "prime": false,
+      "divisibility_frequencies": [
+        3
+      ]
+    },
+    {
+      "integer": 94,
+      "prime": false,
+      "divisibility_frequencies": [
+        2
+      ]
+    },
+    {
+      "integer": 95,
+      "prime": false,
+      "divisibility_frequencies": [
+        5
+      ]
+    },
+    {
+      "integer": 96,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        3,
+        4,
+        6,
+        8
+      ]
+    },
+    {
+      "integer": 97,
+      "prime": true,
+      "divisibility_frequencies": []
+    },
+    {
+      "integer": 98,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        7
+      ]
+    },
+    {
+      "integer": 99,
+      "prime": false,
+      "divisibility_frequencies": [
+        3,
+        9
+      ]
+    },
+    {
+      "integer": 100,
+      "prime": false,
+      "divisibility_frequencies": [
+        2,
+        4,
+        5,
+        10
+      ]
+    }
+  ]
+}

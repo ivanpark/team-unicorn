@@ -1,0 +1,34 @@
+{
+  "dt": 0.0025,
+  "velocity": "10*sum(max(0,sin(theta_i)))/(sqrt(k)*(1+0.30*sum pairwise active_i*active_j))",
+  "oscillator": "theta_i derivative =2pi f + control_i, f=1 Hz",
+  "controller": "control_0=0, control_i=clip(-K sin(wrapped(theta_i-theta_0-2pi*i/k)),-3,+3) rad/s",
+  "kicks": [
+    [
+      0.75,
+      [
+        0.0,
+        1.5707963267948966,
+        -1.5707963267948966
+      ]
+    ],
+    [
+      3.0,
+      [
+        0.0,
+        -1.5707963267948966,
+        1.0471975511965976
+      ]
+    ],
+    [
+      7.0,
+      [
+        0.0,
+        1.0471975511965976,
+        -1.5707963267948966
+      ]
+    ]
+  ],
+  "control_effort": "integral sum_i control_i^2 dt; not subtracted from distance",
+  "assumptions": "phase kicks unexpected at 0.75s,3s,7s; each phase sensor internal; reference controls can observe current phases; no motion physics; no primes embedded; no distance feedback"
+}

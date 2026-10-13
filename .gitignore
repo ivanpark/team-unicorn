@@ -1,0 +1,12 @@
+# Transient developer files only; preserve original research logs.
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+*.key
+*.pem

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Unicorn Gait Lab 0.2 · 시간과 협응</title>
+<style>
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#202020;background:#f5f5f5;font-synthesis:none}*{box-sizing:border-box}body{margin:0}main{max-width:1120px;margin:auto;padding:36px 22px 56px}header{padding:6px 0 25px}.eyebrow{font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:#666;font-weight:700}h1{font-size:clamp(29px,5vw,46px);margin:10px 0 12px;letter-spacing:-.035em}h2{font-size:21px;margin:0 0 15px}h3{font-size:16px;margin:0 0 10px}p{line-height:1.7;margin:10px 0}header p{max-width:870px}.card{background:white;border:1px solid #ddd;border-radius:19px;padding:24px;margin:0 0 18px;box-shadow:0 3px 12px #00000003}.hint{color:#595959;font-size:13px;line-height:1.65}.row{display:flex;gap:14px;flex-wrap:wrap;align-items:end}.field{flex:1;min-width:190px}label{display:block;font-size:13px;font-weight:650;margin-bottom:7px}input,select,button{font:inherit}input[type=number],select{width:100%;border:1px solid #bbb;border-radius:9px;padding:10px;background:white;color:#202020}input[type=range]{width:100%;accent-color:#202020}button{cursor:pointer;border:1px solid #999;background:#fff;border-radius:10px;padding:10px 13px;color:#202020}button:hover{background:#efefef}button.primary{background:#202020;color:white;border-color:#202020}.buttons{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 5px}.formula{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:14px;padding:12px 14px;background:#f2f2f2;border-radius:10px;overflow:auto;line-height:1.75}.scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}th,td{text-align:right;padding:13px 12px;border-bottom:1px solid #e6e6e6;white-space:nowrap}th{font-size:12px;color:#666;background:#fafafa;font-weight:650}th:first-child,td:first-child{text-align:left}td input[type=number]{width:100px;padding:7px}tr.selected{background:#f0f0f0}tr.disabled{opacity:.4}td em{font-style:normal;font-size:12px;display:block;color:#777}.tag{font-size:12px;border:1px solid #aaa;border-radius:999px;padding:3px 7px;white-space:nowrap}.tag.prime{font-weight:700;border-color:#222}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}.metric{background:#f6f6f6;border-radius:13px;padding:19px}.metric .time{font-size:14px;color:#555}.metric .value{font-size:clamp(28px,4vw,40px);font-weight:750;letter-spacing:-.035em;margin:8px 0}.metric .units{font-size:13px;font-weight:400}.metric .small{font-size:12px;line-height:1.75;color:#555}.warning{border-left:3px solid #333;padding:8px 14px;background:#f7f7f7;font-size:13px;line-height:1.7;margin:14px 0}.columns{display:grid;grid-template-columns:1fr 1fr;gap:16px}details{margin:12px 0}summary{cursor:pointer;font-weight:650;font-size:14px}footer{font-size:12px;color:#666;line-height:1.7;margin-top:24px}#error{color:#333;background:#eee;padding:12px;display:none}.term{font-weight:650}.pill{font-size:12px;display:inline-block;margin-top:6px;border:1px solid #ccc;border-radius:6px;padding:4px 7px}a{color:inherit}@media(max-width:680px){main{padding:23px 12px 40px}.card{padding:18px 14px}th,td{padding:10px 8px}.cards{grid-template-columns:1fr}.metric{display:block}.columns{grid-template-columns:1fr}.field{min-width:140px}}
+</style>
+</head>
+<body><main>
+<header><div class="eyebrow">Team Unicorn / Arithmetic &amp; Scheduling Sandbox</div>
+<h1>Gait Lab 0.2<br>1초에서 5초, 10초로</h1>
+<p>동작당 이동거리 × 완료한 동작 횟수. 시간을 늘렸을 때 생기는 <strong>단순한 반복</strong>과, 여러 다리를 관리하면서 생기는 <strong>대기·병목</strong>을 분리해 본다.</p>
+<div class="hint">2026.10.13 · 계산 실험 · 실제 동물의 보행, 파동 간섭 또는 소수 생성 법칙을 재현하는 모형은 아니다.</div></header>
+<section class="card"><h2>01 · 다리와 동작 설정</h2>
+<div class="row"><div class="field"><label for="k">활성 다리 수 <span id="kLabel">1</span></label><input id="k" type="range" min="1" max="6" step="1" value="1"></div>
+<div class="field"><label for="phase">첫 동작의 배치</label><select id="phase"><option value="staggered">분산 시작 · 두 번째 다리부터 시점 분산</option><option value="aligned">정렬 시작 · 각 다리의 첫 주기 끝</option></select></div></div>
+<div class="buttons"><button id="original">원본 · 5 units × 7회</button><button id="two">두 다리 · 비용 없이 37</button><button id="six">여섯 다리 · 관리비용 30 ms</button></div>
+<div class="scroll"><table><thead><tr><th>다리</th><th>동작당 거리 dᵢ</th><th>요청 횟수 fᵢ / 초</th><th>첫 요청 시점 / 초</th></tr></thead><tbody id="legs"></tbody></table></div>
+<p class="hint">dᵢ는 자유롭게 바꿀 수 있다. 기본값 5, 2, 3, 7, 11, 13은 예시일 뿐이며, 다리의 소수 라벨이 물리적 보폭을 정한다는 가정은 확정하지 않았다. 요청 빈도와 실제 완료 빈도도 다르다.</p></section>
+<section class="card"><h2>02 · 가상의 관리비용</h2><div class="row">
+<div class="field"><label for="cost">다른 다리 한 개와 조율하는 비용: <strong id="costLabel">30 ms</strong></label><input id="cost" type="range" min="0" max="50" step="1" value="30"></div>
+<div class="field"><label for="controller">관리 방식</label><select id="controller"><option value="shared">하나의 관리자 · 선착순 처리</option><option value="independent">다리별 관리자 · 병렬 처리</option></select></div></div>
+<div class="formula">요청 하나의 관리시간 h = λ × (k − 1)<br>첫 요청: φᵢ / fᵢ, 이후 매 1/fᵢ초마다 요청<br>시작 = max(요청 시점, 관리자 사용 가능 시점)<br>완료 = 시작 + h → 총거리에 dᵢ를 더함</div>
+<p class="hint">각 동작의 추진 기여를 단순히 합산한다. 동작 도중의 부분 거리는 세지 않는다. 다리가 하나일 때 h=0인 것은 추가 협응비용만 분리하기 위한 가정이다. 설계·에너지·귀환·마찰 비용은 포함하지 않았다. 예정된 요청은 대기 중에도 계속 발생한다.</p>
+<div id="error"></div><div id="load" class="warning"></div></section>
+<section class="card"><h2>03 · 실제 완료된 거리</h2><div id="metrics" class="cards"></div>
+<div class="scroll"><table><thead><tr><th>시간</th><th>관리비용 없을 때</th><th>실제 완료 거리</th><th>평균거리 / 초</th><th>직전 1초 거리</th><th>완료 동작</th><th>미완료 요청</th></tr></thead><tbody id="summary"></tbody></table></div>
+<p class="hint">D(5)는 5초 동안 누적된 거리다. 마지막 1초의 거리 D(5)−D(4)와 구별한다. 미완료 요청에는 관리 중인 요청도 포함된다. 모든 값은 출발 후 해당 시각까지 계산한다.</p></section>
+<section class="card"><h2>04 · 같은 설정에서 다리 수만 비교</h2><p class="hint">위에 입력한 다리를 앞에서부터 k개 사용한다. 분산 시작을 선택하면 첫 동작 위상도 k에 맞춰 배치한다. 아래는 여섯 가지 구성의 비교이며 가능한 모든 gait의 최적해 탐색은 아니다.</p>
+<div class="scroll"><table><thead><tr><th>다리 수</th><th>1초 거리</th><th>5초 거리</th><th>10초 거리</th><th>10초 미완료</th><th>관리자 부하</th></tr></thead><tbody id="comparison"></tbody></table></div><div class="buttons"><button id="download" class="primary">현재 설정·결과 JSON 저장</button></div></section>
+<section class="card"><h2>해석할 때 지켜야 할 경계</h2><div class="columns"><div><h3>고정된 한 다리</h3><div class="formula">D(T) = d × m(T)</div><p class="hint">d와 완료 동작 수 m(T)가 양의 정수라면, D가 소수인 경우 둘 중 하나는 1이고 다른 하나는 그 소수다. d=5라면 착지 지점은 5, 10, 15, …이며 속도를 바꿔도 이 배수 조건은 바뀌지 않는다.</p></div><div><h3>정수 초 단위의 반복</h3><div class="formula">관리비용 0 + 초당 정수 회 반복<br>⇒ D(T) = T × D(1), T = 1, 2, …</div><p class="hint">D(1)&gt;1이면 정수 T&gt;1의 누적거리에는 소수가 나타날 수 없다. 5초·10초에서 소수가 사라지는 것은 이 설정의 산술적 결과이지 새로운 소수 법칙이 아니다.</p></div></div>
+<p class="warning">관리 지연이나 위상을 바꿔 소수 거리가 나타나더라도, 먼저 미완료 동작과 관측 시점의 효과를 확인해야 한다. 이 모형에서 우수한 다리 수가 나와도 실제 최적 다리 수의 증명은 아니다. 비용값과 관리자 수를 바꿔 민감도를 비교한다.</p>
+<details><summary>관리자 부하와 병목의 의미</summary><p class="hint">공유 관리자에서는 ρ = h × Σfᵢ이다. 요청은 계속 정해진 빈도로 도착하므로 ρ&gt;1이면 장기적으로 모두 제때 처리할 수 없다. ρ&lt;1이어도 동시 요청이나 마지막 시점의 요청 때문에 미완료가 잠깐 남을 수 있다. 다리별 관리자에서는 max(h fᵢ)를 표시한다. 이는 이 가상 대기열 모형의 조건이다.</p></details>
+<details><summary>실제 이벤트 기록 보기 · 처음 160건</summary><div class="scroll"><table><thead><tr><th>다리 / 요청</th><th>요청 시각</th><th>시작 시각</th><th>완료 시각</th><th>관리 대기</th><th>기여 거리</th><th>10초 내 완료</th></tr></thead><tbody id="eventlog"></tbody></table></div></details></section>
+<footer><strong>Source audit.</strong> 현재 대화의 Unicorn-1 이미지: 동작당 5 units, 초당 7회, 1초 거리 35. 다중 다리의 예시 입력은 이전 대화의 5, 2, 3, 7, 11, 13과 7, 1, 1, 1, 1, 1을 사용한다. 관리시간·대기열·분산 위상은 이 실험을 위한 신규 가정이다. 외부 실험 자료에 맞춘 값은 아니다.<br>브라우저 계산은 부동소수점 허용오차 10⁻⁹를 사용한다. 동봉 Python 기준 계산은 Fraction 유리수 연산이며 144개 구성 × 3개 시점 = 432개 결과를 검산했다. 네트워크 접속 없이 동작한다.</footer>
+</main><script>
+'use strict';
+const EPS=1e-9, BASE_D=[5,2,3,7,11,13], BASE_F=[7,1,1,1,1,1];
+const $=id=>document.getElementById(id);
+function isPrime(n){if(!Number.isSafeInteger(n)||n<2)return false;if(n%2===0)return n===2;for(let d=3;d*d<=n;d+=2)if(n%d===0)return false;return true;}
+function factors(n){if(n<1)return '—';if(n===1)return '1';const out=[];let d=2;while(d*d<=n){let a=0;while(n%d===0){a++;n/=d;}if(a)out.push(a===1?String(d):`${d}^${a}`);d=d===2?3:d+2;}if(n>1)out.push(String(n));return out.join(' × ');}
+function makeLegs(k,ds,fs,phaseMode){return ds.slice(0,k).map((d,i)=>({stride:d,frequency:fs[i],phase:i===0||phaseMode==='aligned'?1:i/k}));}
+function schedule(legs,T,cost,controller){
+ const ev=[];
+ legs.forEach((l,i)=>{for(let j=0;;j++){const r=(j+l.phase)/l.frequency;if(r>T+EPS)break;ev.push({leg:i+1,request:j+1,release:r,stride:l.stride});if(ev.length>100000)throw Error('이벤트가 너무 많습니다. 빈도를 줄여주세요.');}});
+ ev.sort((a,b)=>Math.abs(a.release-b.release)>EPS?a.release-b.release:a.leg-b.leg||a.request-b.request);
+ const h=cost*(legs.length-1),free=Array(controller==='shared'?1:legs.length).fill(0);
+ for(const e of ev){const lane=controller==='shared'?0:e.leg-1;e.start=Math.max(e.release,free[lane]);e.finish=e.start+h;e.wait=e.start-e.release;e.service=h;free[lane]=e.finish;}
+ return ev;
+}
+function snapshot(legs,ev,T,cost,controller){
+ const req=ev.filter(e=>e.release<=T+EPS),done=req.filter(e=>e.finish<=T+EPS);
+ const D=done.reduce((s,e)=>s+e.stride,0),prev=done.filter(e=>e.finish<=Math.max(0,T-1)+EPS).reduce((s,e)=>s+e.stride,0);
+ const h=cost*(legs.length-1);const load=controller==='shared'?h*legs.reduce((s,l)=>s+l.frequency,0):Math.max(...legs.map(l=>h*l.frequency));
+ return {time:T,distance:D,prime:isPrime(D),factors:factors(D),speed:D/T,lastSecond:D-prev,requested:req.length,completed:done.length,pending:req.length-done.length,ideal:req.reduce((s,e)=>s+e.stride,0),load,moves:legs.map((_,i)=>done.filter(e=>e.leg===i+1).length)};
+}
+function run(k,ds,fs,phase,cost,controller){const legs=makeLegs(k,ds,fs,phase),events=schedule(legs,10,cost,controller);return {legs,events,snapshots:[1,5,10].map(T=>snapshot(legs,events,T,cost,controller))};}
+function fmt(v,n=3){return Number(v.toFixed(n)).toLocaleString('ko-KR');}
+let state=null;
+function getConfig(){const ds=BASE_D.map((_,i)=>Number($('d'+i).value));const fs=BASE_F.map((_,i)=>Number($('f'+i).value));if(ds.some(d=>!Number.isInteger(d)||d<1||d>1000)||fs.some(f=>!Number.isFinite(f)||f<=0||f>100))throw Error('거리는 1~1000의 정수, 요청 횟수는 0보다 크고 100 이하로 입력하세요.');return {k:Number($('k').value),ds,fs,cost:Number($('cost').value)/1000,phase:$('phase').value,controller:$('controller').value};}
+function render(){try{
+ $('error').style.display='none';const c=getConfig();const result=run(c.k,c.ds,c.fs,c.phase,c.cost,c.controller);state={model:'Unicorn Gait Lab 0.2',assumptions:'Toy arithmetic + controller scheduling; not physical locomotion; default strides do not establish a prime-to-stride law.',config:c,result,comparison:[]};
+ $('kLabel').textContent=c.k;$('costLabel').textContent=`${fmt(c.cost*1000)} ms`;
+ BASE_D.forEach((_,i)=>{const row=$('leg'+i);row.className=i<c.k?'':'disabled';const ph=i===0||c.phase==='aligned'?1:i/c.k;$('p'+i).textContent=i<c.k?fmt(ph/c.fs[i],5):'비활성';});
+ const rho=result.snapshots[0].load,h=c.cost*(c.k-1);
+ $('load').innerHTML=`현재 요청 한 건의 관리시간 <strong>${fmt(h*1000)} ms</strong> · 관리자 부하 <strong>${fmt(rho)}</strong>. `+(rho>1+EPS?'요청량이 처리능력을 넘는다. 계속 실행하면 미처리 요청이 증가한다.':Math.abs(rho-1)<=EPS?'평균 처리능력을 모두 사용한다. 추가 지연을 흡수할 여유가 없다.':'평균 요청량은 처리능력 이하다. 그래도 관측 시점이나 동시 요청에 따른 대기가 남을 수 있다.');
+ $('metrics').innerHTML=result.snapshots.map(s=>`<div class="metric"><div class="time">${s.time}초 누적</div><div class="value">${fmt(s.distance,0)} <span class="units">units</span></div><div><span class="tag ${s.prime?'prime':''}">${s.prime?'소수':s.distance<2?'소수 아님':'합성수'}</span></div><div class="small" style="margin-top:9px">${s.factors}<br>완료 횟수 [${s.moves.join(', ')}]<br>미완료 요청 ${s.pending}건</div></div>`).join('');
+ $('summary').innerHTML=result.snapshots.map(s=>`<tr><td>${s.time}초</td><td>${s.ideal}</td><td><strong>${s.distance}</strong></td><td>${fmt(s.speed)}</td><td>${s.lastSecond}</td><td>${s.completed}</td><td>${s.pending}</td></tr>`).join('');
+ let rows='';for(let k=1;k<=6;k++){const r=run(k,c.ds,c.fs,c.phase,c.cost,c.controller),ss=r.snapshots;state.comparison.push({k,snapshots:ss});rows+=`<tr class="${k===c.k?'selected':''}"><td>${k}개</td><td>${ss[0].distance}</td><td>${ss[1].distance}</td><td>${ss[2].distance}</td><td>${ss[2].pending}</td><td>${fmt(ss[2].load)}</td></tr>`;}$('comparison').innerHTML=rows;
+ $('eventlog').innerHTML=result.events.slice(0,160).map(e=>`<tr><td>${e.leg} / ${e.request}</td><td>${fmt(e.release,5)}</td><td>${fmt(e.start,5)}</td><td>${fmt(e.finish,5)}</td><td>${fmt(e.wait,5)}</td><td>+${e.stride}</td><td>${e.finish<=10+EPS?'완료':'대기 / 처리 중'}</td></tr>`).join('');
+ }catch(e){$('error').style.display='block';$('error').textContent=e.message;}}
+function preset(k,cost){BASE_D.forEach((d,i)=>{$('d'+i).value=d;$('f'+i).value=BASE_F[i];});$('k').value=k;$('cost').value=cost;$('phase').value='staggered';$('controller').value='shared';render();}
+function init(){
+ $('legs').innerHTML=BASE_D.map((d,i)=>`<tr id="leg${i}"><td>Leg ${i+1}</td><td><input aria-label="Leg ${i+1} 동작당 거리" id="d${i}" type="number" value="${d}" min="1" max="1000" step="1"></td><td><input aria-label="Leg ${i+1} 초당 요청" id="f${i}" type="number" value="${BASE_F[i]}" min="0.1" max="100" step="0.1"></td><td id="p${i}"></td></tr>`).join('');
+ document.querySelectorAll('input,select').forEach(e=>e.addEventListener('input',render));$('original').addEventListener('click',()=>preset(1,0));$('two').addEventListener('click',()=>preset(2,0));$('six').addEventListener('click',()=>preset(6,30));$('download').addEventListener('click',()=>{if(!state)return;const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='unicorn_gait_lab_02_current.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});render();
+}
+if(typeof document!=='undefined')init();
+if(typeof module!=='undefined')module.exports={run,isPrime,factors,makeLegs,schedule,snapshot};
+</script></body></html>

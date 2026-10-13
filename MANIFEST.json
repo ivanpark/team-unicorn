@@ -1,0 +1,224 @@
+{
+  "release": "v0.7",
+  "date": "2026-10-13",
+  "file_count": 54,
+  "total_bytes": 43917003,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 164
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 930
+    },
+    {
+      "path": "PUBLISHING.md",
+      "bytes": 1816
+    },
+    {
+      "path": "README.ko.md",
+      "bytes": 796
+    },
+    {
+      "path": "README.md",
+      "bytes": 5600
+    },
+    {
+      "path": "docs/assets/original_number_system_blueprint.png",
+      "bytes": 126262
+    },
+    {
+      "path": "docs/en/Number_System_Blueprint_v0.7_EN.docx",
+      "bytes": 143092
+    },
+    {
+      "path": "docs/en/Number_System_Blueprint_v0.7_EN.pdf",
+      "bytes": 182331
+    },
+    {
+      "path": "docs/en/Team_Unicorn_v0.7_Proposal_EN.docx",
+      "bytes": 146910
+    },
+    {
+      "path": "docs/en/Team_Unicorn_v0.7_Proposal_EN.pdf",
+      "bytes": 215629
+    },
+    {
+      "path": "docs/en/Team_Unicorn_v0.7_Technical_Report_EN.docx",
+      "bytes": 43723
+    },
+    {
+      "path": "docs/en/Team_Unicorn_v0.7_Technical_Report_EN.pdf",
+      "bytes": 132400
+    },
+    {
+      "path": "docs/ko/Number_System_Blueprint_v0.7_KO.docx",
+      "bytes": 143507
+    },
+    {
+      "path": "docs/ko/Number_System_Blueprint_v0.7_KO.pdf",
+      "bytes": 279900
+    },
+    {
+      "path": "docs/ko/Team_Unicorn_v0.7_Proposal_KO.docx",
+      "bytes": 147839
+    },
+    {
+      "path": "docs/ko/Team_Unicorn_v0.7_Proposal_KO.pdf",
+      "bytes": 398819
+    },
+    {
+      "path": "docs/ko/Team_Unicorn_v0.7_Technical_Report_KO.docx",
+      "bytes": 44700
+    },
+    {
+      "path": "docs/ko/Team_Unicorn_v0.7_Technical_Report_KO.pdf",
+      "bytes": 329849
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "bytes": 787
+    },
+    {
+      "path": "simulations/gait-0.2/README.txt",
+      "bytes": 3802
+    },
+    {
+      "path": "simulations/gait-0.2/browser_model.js",
+      "bytes": 6666
+    },
+    {
+      "path": "simulations/gait-0.2/index.html",
+      "bytes": 17036
+    },
+    {
+      "path": "simulations/gait-0.2/results.json",
+      "bytes": 362699
+    },
+    {
+      "path": "simulations/gait-0.2/simulate.py",
+      "bytes": 7322
+    },
+    {
+      "path": "simulations/gait-0.3/README.md",
+      "bytes": 4091
+    },
+    {
+      "path": "simulations/gait-0.3/build_ui.py",
+      "bytes": 17963
+    },
+    {
+      "path": "simulations/gait-0.3/index.html",
+      "bytes": 1145752
+    },
+    {
+      "path": "simulations/gait-0.3/results.csv",
+      "bytes": 119779
+    },
+    {
+      "path": "simulations/gait-0.3/results.json",
+      "bytes": 1128150
+    },
+    {
+      "path": "simulations/gait-0.3/results_2-100_chat_export.csv",
+      "bytes": 119779
+    },
+    {
+      "path": "simulations/gait-0.3/run_log.txt",
+      "bytes": 10683
+    },
+    {
+      "path": "simulations/gait-0.3/simulate.py",
+      "bytes": 9998
+    },
+    {
+      "path": "simulations/gait-0.4/Team_Unicorn_Fourier_0.4_README.md",
+      "bytes": 4057
+    },
+    {
+      "path": "simulations/gait-0.4/Team_Unicorn_Fourier_Gait_Lab_0.4.html",
+      "bytes": 34885
+    },
+    {
+      "path": "simulations/gait-0.4/Team_Unicorn_Fourier_probe.json",
+      "bytes": 45749
+    },
+    {
+      "path": "simulations/gait-0.4/Team_Unicorn_Fourier_probe_results.csv",
+      "bytes": 7262
+    },
+    {
+      "path": "simulations/gait-0.4/fourier_sensitivity/test_params.py",
+      "bytes": 4412
+    },
+    {
+      "path": "simulations/gait-0.4/team_unicorn_fourier_probe.py",
+      "bytes": 4322
+    },
+    {
+      "path": "simulations/gait-0.5/README.md",
+      "bytes": 3618
+    },
+    {
+      "path": "simulations/gait-0.5/Team_Unicorn_Fourier_Gait_Lab_0.5_1M.html",
+      "bytes": 511693
+    },
+    {
+      "path": "simulations/gait-0.5/bins_10000.csv",
+      "bytes": 5944
+    },
+    {
+      "path": "simulations/gait-0.5/results_100k.csv",
+      "bytes": 6126678
+    },
+    {
+      "path": "simulations/gait-0.5/results_1m.csv.gz",
+      "bytes": 15097473
+    },
+    {
+      "path": "simulations/gait-0.5/summary.json",
+      "bytes": 35250
+    },
+    {
+      "path": "simulations/gait-0.5/team_unicorn_fourier_probe.py",
+      "bytes": 4322
+    },
+    {
+      "path": "simulations/gait-0.5/unicorn_scale_full.py",
+      "bytes": 9804
+    },
+    {
+      "path": "simulations/gait-0.5/unicorn_scale_probe.py",
+      "bytes": 1661
+    },
+    {
+      "path": "simulations/gait-0.5/winning_runs.json",
+      "bytes": 16686062
+    },
+    {
+      "path": "simulations/gait-0.6/README.md",
+      "bytes": 1249
+    },
+    {
+      "path": "simulations/gait-0.6/feedback_probe.py",
+      "bytes": 3915
+    },
+    {
+      "path": "simulations/gait-0.6/index.html",
+      "bytes": 11940
+    },
+    {
+      "path": "simulations/gait-0.6/parameters.json",
+      "bytes": 901
+    },
+    {
+      "path": "simulations/gait-0.6/results.csv",
+      "bytes": 2855
+    },
+    {
+      "path": "simulations/gait-0.6.1/index.html",
+      "bytes": 14177
+    }
+  ]
+}

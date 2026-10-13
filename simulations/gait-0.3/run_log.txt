@@ -1,0 +1,97 @@
+light preloaded full {'n': 99, 'catalog_designs': 209, 'mean_total': 3.3836, 'mean_fixed': 4.1364, 'total_gain_pct': 18.199, 'single_gain_pct': 34.765, 'mean_by_prime': {'prime': 3.018, 'composite': 3.507}, 'k_counts': {1: 8, 2: 87, 3: 4}, 'fixed_legs': [3, 11, 13], 'prime_destinations': 25}
+    2 [2]                  tot   1.333 birth  0.20 travel  0.62 return  0.16 steps 1 vs 1leg  0.00
+    3 [2, 3]               tot   1.372 birth  0.62 travel  0.19 return  0.21 steps 1 vs 1leg  0.12
+    5 [2, 3]               tot   1.610 birth  0.62 travel  0.39 return  0.25 steps 2 vs 1leg  0.21
+   11 [5, 11]              tot   1.879 birth  0.79 travel  0.46 return  0.28 steps 2 vs 1leg  0.15
+   12 [11]                 tot   1.801 birth  0.33 travel  0.25 return  0.87 steps 1 vs 1leg  0.00
+   13 [3, 13]              tot   2.248 birth  0.77 travel  0.83 return  0.29 steps 4 vs 1leg  0.37
+   17 [3, 7]               tot   2.310 birth  0.71 travel  0.71 return  0.54 steps 3 vs 1leg  1.36
+   29 [7, 11]              tot   2.767 birth  0.82 travel  1.00 return  0.60 steps 4 vs 1leg  0.24
+   30 [7, 11]              tot   3.009 birth  0.82 travel  0.60 return  1.24 steps 2 vs 1leg  1.24
+   31 [3, 7]               tot   2.980 birth  0.71 travel  0.88 return  1.04 steps 3 vs 1leg  0.65
+   37 [7, 11]              tot   3.099 birth  0.82 travel  0.65 return  1.28 steps 2 vs 1leg  1.59
+   50 [11, 13]             tot   3.466 birth  0.88 travel  1.31 return  0.92 steps 3 vs 1leg  0.86
+   64 [5, 11]              tot   4.100 birth  0.79 travel  1.66 return  1.30 steps 6 vs 1leg  1.10
+   97 [11, 13]             tot   4.568 birth  0.88 travel  1.35 return  1.98 steps 4 vs 1leg  5.52
+  100 [7, 13]              tot   4.762 birth  0.84 travel  1.89 return  1.69 steps 6 vs 1leg  1.03
+light inherited full {'n': 99, 'catalog_designs': 209, 'mean_total': 3.3876, 'mean_fixed': 4.1364, 'total_gain_pct': 18.102, 'single_gain_pct': 34.688, 'mean_by_prime': {'prime': 3.034, 'composite': 3.507}, 'k_counts': {1: 9, 2: 86, 3: 4}, 'fixed_legs': [3, 11, 13], 'prime_destinations': 25}
+    2 [2]                  tot   1.333 birth  0.20 travel  0.62 return  0.16 steps 1 vs 1leg  0.00
+    3 [2]                  tot   1.496 birth  0.20 travel  0.16 return  0.78 steps 1 vs 1leg  0.00
+    5 [2, 3]               tot   1.610 birth  0.62 travel  0.39 return  0.25 steps 2 vs 1leg  0.21
+   11 [3, 5]               tot   1.973 birth  0.68 travel  0.46 return  0.48 steps 2 vs 1leg  0.06
+   12 [11]                 tot   1.801 birth  0.33 travel  0.25 return  0.87 steps 1 vs 1leg  0.00
+   13 [5, 7]               tot   2.315 birth  0.74 travel  0.29 return  0.93 steps 1 vs 1leg  0.30
+   17 [3, 7]               tot   2.310 birth  0.71 travel  0.71 return  0.54 steps 3 vs 1leg  1.36
+   29 [7, 11]              tot   2.767 birth  0.82 travel  1.00 return  0.60 steps 4 vs 1leg  0.24
+   30 [7, 11]              tot   3.009 birth  0.82 travel  0.60 return  1.24 steps 2 vs 1leg  1.24
+   31 [3, 7]               tot   2.980 birth  0.71 travel  0.88 return  1.04 steps 3 vs 1leg  0.65
+   37 [7, 11]              tot   3.099 birth  0.82 travel  0.65 return  1.28 steps 2 vs 1leg  1.59
+   50 [11, 13]             tot   3.466 birth  0.88 travel  1.31 return  0.92 steps 3 vs 1leg  0.86
+   64 [5, 11]              tot   4.100 birth  0.79 travel  1.66 return  1.30 steps 6 vs 1leg  1.10
+   97 [11, 13]             tot   4.568 birth  0.88 travel  1.35 return  1.98 steps 4 vs 1leg  5.52
+  100 [7, 13]              tot   4.762 birth  0.84 travel  1.89 return  1.69 steps 6 vs 1leg  1.03
+medium preloaded full {'n': 99, 'catalog_designs': 209, 'mean_total': 3.6463, 'mean_fixed': 4.4417, 'total_gain_pct': 17.907, 'single_gain_pct': 29.7, 'mean_by_prime': {'prime': 3.256, 'composite': 3.778}, 'k_counts': {1: 16, 2: 83}, 'fixed_legs': [3, 13], 'prime_destinations': 25}
+    2 [2]                  tot   1.333 birth  0.20 travel  0.62 return  0.16 steps 1 vs 1leg  0.00
+    3 [2, 3]               tot   1.372 birth  0.62 travel  0.19 return  0.21 steps 1 vs 1leg  0.12
+    5 [2, 5]               tot   1.623 birth  0.66 travel  0.39 return  0.23 steps 2 vs 1leg  0.20
+   11 [5, 11]              tot   1.879 birth  0.79 travel  0.46 return  0.28 steps 2 vs 1leg  0.15
+   12 [11]                 tot   1.801 birth  0.33 travel  0.25 return  0.87 steps 1 vs 1leg  0.00
+   13 [3, 13]              tot   2.248 birth  0.77 travel  0.83 return  0.29 steps 4 vs 1leg  0.37
+   17 [3, 7]               tot   2.470 birth  0.71 travel  0.79 return  0.62 steps 3 vs 1leg  1.20
+   29 [7, 11]              tot   2.847 birth  0.82 travel  1.00 return  0.68 steps 4 vs 1leg  0.16
+   30 [7, 11]              tot   3.169 birth  0.82 travel  0.68 return  1.32 steps 2 vs 1leg  1.08
+   31 [5, 13]              tot   3.252 birth  0.81 travel  1.38 return  0.71 steps 6 vs 1leg  0.38
+   37 [11, 13]             tot   3.276 birth  0.88 travel  1.33 return  0.71 steps 3 vs 1leg  1.41
+   50 [11, 13]             tot   3.706 birth  0.88 travel  1.47 return  1.00 steps 3 vs 1leg  0.62
+   64 [11, 13]             tot   4.458 birth  0.88 travel  1.29 return  1.93 steps 4 vs 1leg  0.74
+   97 [11, 13]             tot   5.208 birth  0.88 travel  1.67 return  2.30 steps 4 vs 1leg  4.88
+  100 [7, 13]              tot   5.402 birth  0.84 travel  2.13 return  2.09 steps 6 vs 1leg  0.39
+medium inherited full {'n': 99, 'catalog_designs': 209, 'mean_total': 3.6531, 'mean_fixed': 4.4417, 'total_gain_pct': 17.754, 'single_gain_pct': 29.568, 'mean_by_prime': {'prime': 3.283, 'composite': 3.778}, 'k_counts': {1: 19, 2: 80}, 'fixed_legs': [3, 13], 'prime_destinations': 25}
+    2 [2]                  tot   1.333 birth  0.20 travel  0.62 return  0.16 steps 1 vs 1leg  0.00
+    3 [2]                  tot   1.496 birth  0.20 travel  0.16 return  0.78 steps 1 vs 1leg  0.00
+    5 [2, 3]               tot   1.690 birth  0.62 travel  0.39 return  0.33 steps 2 vs 1leg  0.13
+   11 [5]                  tot   2.029 birth  0.26 travel  0.40 return  1.02 steps 2 vs 1leg  0.00
+   12 [11]                 tot   1.801 birth  0.33 travel  0.25 return  0.87 steps 1 vs 1leg  0.00
+   13 [2, 11]              tot   2.400 birth  0.73 travel  0.91 return  0.40 steps 2 vs 1leg  0.22
+   17 [3, 7]               tot   2.470 birth  0.71 travel  0.79 return  0.62 steps 3 vs 1leg  1.20
+   29 [7, 11]              tot   2.847 birth  0.82 travel  1.00 return  0.68 steps 4 vs 1leg  0.16
+   30 [7, 11]              tot   3.169 birth  0.82 travel  0.68 return  1.32 steps 2 vs 1leg  1.08
+   31 [5, 13]              tot   3.252 birth  0.81 travel  1.38 return  0.71 steps 6 vs 1leg  0.38
+   37 [11, 13]             tot   3.276 birth  0.88 travel  1.33 return  0.71 steps 3 vs 1leg  1.41
+   50 [11, 13]             tot   3.706 birth  0.88 travel  1.47 return  1.00 steps 3 vs 1leg  0.62
+   64 [11, 13]             tot   4.458 birth  0.88 travel  1.29 return  1.93 steps 4 vs 1leg  0.74
+   97 [11, 13]             tot   5.208 birth  0.88 travel  1.67 return  2.30 steps 4 vs 1leg  4.88
+  100 [7, 13]              tot   5.402 birth  0.84 travel  2.13 return  2.09 steps 6 vs 1leg  0.39
+heavy preloaded full {'n': 99, 'catalog_designs': 209, 'mean_total': 3.8977, 'mean_fixed': 4.7207, 'total_gain_pct': 17.434, 'single_gain_pct': 24.853, 'mean_by_prime': {'prime': 3.461, 'composite': 4.045}, 'k_counts': {1: 22, 2: 77}, 'fixed_legs': [3, 13], 'prime_destinations': 25}
+    2 [2]                  tot   1.333 birth  0.20 travel  0.62 return  0.16 steps 1 vs 1leg  0.00
+    3 [2, 3]               tot   1.372 birth  0.62 travel  0.19 return  0.21 steps 1 vs 1leg  0.12
+    5 [2, 5]               tot   1.623 birth  0.66 travel  0.39 return  0.23 steps 2 vs 1leg  0.20
+   11 [5, 11]              tot   1.879 birth  0.79 travel  0.46 return  0.28 steps 2 vs 1leg  0.15
+   12 [11]                 tot   1.801 birth  0.33 travel  0.25 return  0.87 steps 1 vs 1leg  0.00
+   13 [3, 13]              tot   2.248 birth  0.77 travel  0.83 return  0.29 steps 4 vs 1leg  0.37
+   17 [3, 7]               tot   2.635 birth  0.71 travel  0.87 return  0.71 steps 4 vs 1leg  1.03
+   29 [7, 11]              tot   2.947 birth  0.82 travel  1.00 return  0.78 steps 4 vs 1leg  0.06
+   30 [3, 13]              tot   3.344 birth  0.77 travel  0.79 return  1.43 steps 3 vs 1leg  0.90
+   31 [5, 13]              tot   3.352 birth  0.81 travel  1.38 return  0.81 steps 6 vs 1leg  0.28
+   37 [11, 13]             tot   3.476 birth  0.88 travel  1.43 return  0.81 steps 3 vs 1leg  1.21
+   50 [11, 13]             tot   4.006 birth  0.88 travel  1.67 return  1.10 steps 3 vs 1leg  0.32
+   64 [11, 13]             tot   4.658 birth  0.88 travel  1.39 return  2.03 steps 4 vs 1leg  0.54
+   97 [11, 13]             tot   6.008 birth  0.88 travel  2.07 return  2.70 steps 4 vs 1leg  4.08
+  100 [11]                 tot   5.789 birth  0.33 travel  2.24 return  2.86 steps 9 vs 1leg  0.00
+heavy inherited full {'n': 99, 'catalog_designs': 209, 'mean_total': 3.9059, 'mean_fixed': 4.7207, 'total_gain_pct': 17.26, 'single_gain_pct': 24.695, 'mean_by_prime': {'prime': 3.493, 'composite': 4.045}, 'k_counts': {1: 25, 2: 74}, 'fixed_legs': [3, 13], 'prime_destinations': 25}
+    2 [2]                  tot   1.333 birth  0.20 travel  0.62 return  0.16 steps 1 vs 1leg  0.00
+    3 [2]                  tot   1.496 birth  0.20 travel  0.16 return  0.78 steps 1 vs 1leg  0.00
+    5 [2, 3]               tot   1.759 birth  0.62 travel  0.39 return  0.40 steps 2 vs 1leg  0.06
+   11 [5]                  tot   2.029 birth  0.26 travel  0.40 return  1.02 steps 2 vs 1leg  0.00
+   12 [11]                 tot   1.801 birth  0.33 travel  0.25 return  0.87 steps 1 vs 1leg  0.00
+   13 [2, 11]              tot   2.468 birth  0.73 travel  0.91 return  0.47 steps 2 vs 1leg  0.15
+   17 [3, 7]               tot   2.635 birth  0.71 travel  0.87 return  0.71 steps 4 vs 1leg  1.03
+   29 [7, 11]              tot   2.947 birth  0.82 travel  1.00 return  0.78 steps 4 vs 1leg  0.06
+   30 [3, 13]              tot   3.344 birth  0.77 travel  0.79 return  1.43 steps 3 vs 1leg  0.90
+   31 [5, 13]              tot   3.352 birth  0.81 travel  1.38 return  0.81 steps 6 vs 1leg  0.28
+   37 [11, 13]             tot   3.476 birth  0.88 travel  1.43 return  0.81 steps 3 vs 1leg  1.21
+   50 [11, 13]             tot   4.006 birth  0.88 travel  1.67 return  1.10 steps 3 vs 1leg  0.32
+   64 [11, 13]             tot   4.658 birth  0.88 travel  1.39 return  2.03 steps 4 vs 1leg  0.54
+   97 [11, 13]             tot   6.008 birth  0.88 travel  2.07 return  2.70 steps 4 vs 1leg  4.08
+  100 [11]                 tot   5.789 birth  0.33 travel  2.24 return  2.86 steps 9 vs 1leg  0.00
+PASS exhaustive+path verification for 12 x 99 cases
