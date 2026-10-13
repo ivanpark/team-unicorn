@@ -1,40 +1,20 @@
-# Publishing to `ivanpark/team-unicorn`
+# Publishing status — Team Unicorn
 
-**Prepared, not yet uploaded.** The currently connected GitHub integration supports commits to an existing repository but **does not expose a create-repository operation**. At packaging time `ivanpark/team-unicorn` returned GitHub `404`. Nothing was pushed to `ivanpark/hmbr`.
+**Published:** The public repository `ivanpark/team-unicorn` exists on the `main` branch. The full **v0.7 package** was committed on 2026-10-13 with the historical research documents, blueprints, simulations and compressed million-destination results.
 
-## Option 1: Create the new repository in GitHub, then push
+**v0.7.1 addenda:** The bilingual living Markdown charters and entropy protocols, README and CHANGELOG changes were added afterward. Original v0.7 DOCX/PDF are retained as historical release snapshots, not silently replaced.
 
-1. Log in to `ivanpark` and visit https://github.com/new . Set the repository name to `team-unicorn`, choose **Private** or **Public** deliberately, and **do not initialise** with README, licence or .gitignore (they are already here).
-2. Unzip the release archive locally, open Terminal at the `Team_Unicorn_v0.7_Repo_Ready` directory and run:
-
-```bash
-git init -b main
-git add .
-git commit -m "Initial Team Unicorn research release v0.7"
-git remote add origin https://github.com/ivanpark/team-unicorn.git
-git push -u origin main
-```
-
-If GitHub authentication is required, use an approved SSH/credential-manager configuration, never commit secrets or use an account password.
-
-## Option 2: GitHub CLI (single repository creation + push workflow)
-
-If `gh` is installed and authenticated on your computer:
+## Verify repository locally
 
 ```bash
-git init -b main
-git add .
-git commit -m "Initial Team Unicorn research release v0.7"
-gh repo create ivanpark/team-unicorn --private --source . --remote origin --push
-```
-
-Change `--private` to `--public` only if you intend to make the research/code available to everyone. Note that the experimental archives are public under that choice; no licence is provided by default.
-
-## Publish checks
-
-```bash
+git clone https://github.com/ivanpark/team-unicorn.git
+cd team-unicorn
 python3 scripts/verify_release.py
-git status --short
+git log -5 --oneline
 ```
 
-The package intentionally excludes the private local Canon DB and nonproject personal materials. Contents of historical simulation files are retained as authored.
+**Checksum note:** `SHA256SUMS` records the original v0.7 packaged files. It is not a checksum manifest for later v0.7.1 Markdown addenda and modified README/CHANGELOG. Treat it as the historical baseline rather than assuming its entire list remains current.
+
+## Current scientific scope
+
+This repository contains **exploratory thought-engineering research and toy simulation results**, not a mathematical proof of a new prime-number theorem or evidence of an underlying computational physics of the universe. It contains no private Canon DB or private correspondence. Public visibility does not grant a software reuse licence.
