@@ -1,8 +1,8 @@
 {
-  "release": "v0.7",
+  "release": "v0.7.1",
   "date": "2026-10-13",
-  "file_count": 54,
-  "total_bytes": 43917003,
+  "file_count": 58,
+  "total_bytes": 43938897,
   "files": [
     {
       "path": ".gitignore",
@@ -10,23 +10,15 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 930
-    },
-    {
-      "path": "PUBLISHING.md",
-      "bytes": 1816
-    },
-    {
-      "path": "README.ko.md",
-      "bytes": 796
-    },
-    {
-      "path": "README.md",
-      "bytes": 5600
+      "bytes": 1741
     },
     {
       "path": "docs/assets/original_number_system_blueprint.png",
       "bytes": 126262
+    },
+    {
+      "path": "docs/en/Entropy_Management_v0.7.1_EN.md",
+      "bytes": 3897
     },
     {
       "path": "docs/en/Number_System_Blueprint_v0.7_EN.docx",
@@ -53,6 +45,14 @@
       "bytes": 132400
     },
     {
+      "path": "docs/en/Thought_Engineering_Charter_v0.7.1_EN.md",
+      "bytes": 5096
+    },
+    {
+      "path": "docs/ko/Entropy_Management_v0.7.1_KO.md",
+      "bytes": 4033
+    },
+    {
       "path": "docs/ko/Number_System_Blueprint_v0.7_KO.docx",
       "bytes": 143507
     },
@@ -77,12 +77,24 @@
       "bytes": 329849
     },
     {
-      "path": "scripts/verify_release.py",
-      "bytes": 787
+      "path": "docs/ko/Thought_Engineering_Charter_v0.7.1_KO.md",
+      "bytes": 5405
     },
     {
-      "path": "simulations/gait-0.2/README.txt",
-      "bytes": 3802
+      "path": "PUBLISHING.md",
+      "bytes": 1319
+    },
+    {
+      "path": "README.ko.md",
+      "bytes": 1854
+    },
+    {
+      "path": "README.md",
+      "bytes": 7691
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "bytes": 787
     },
     {
       "path": "simulations/gait-0.2/browser_model.js",
@@ -93,16 +105,16 @@
       "bytes": 17036
     },
     {
+      "path": "simulations/gait-0.2/README.txt",
+      "bytes": 3802
+    },
+    {
       "path": "simulations/gait-0.2/results.json",
       "bytes": 362699
     },
     {
       "path": "simulations/gait-0.2/simulate.py",
       "bytes": 7322
-    },
-    {
-      "path": "simulations/gait-0.3/README.md",
-      "bytes": 4091
     },
     {
       "path": "simulations/gait-0.3/build_ui.py",
@@ -113,16 +125,20 @@
       "bytes": 1145752
     },
     {
+      "path": "simulations/gait-0.3/README.md",
+      "bytes": 4091
+    },
+    {
+      "path": "simulations/gait-0.3/results_2-100_chat_export.csv",
+      "bytes": 119779
+    },
+    {
       "path": "simulations/gait-0.3/results.csv",
       "bytes": 119779
     },
     {
       "path": "simulations/gait-0.3/results.json",
       "bytes": 1128150
-    },
-    {
-      "path": "simulations/gait-0.3/results_2-100_chat_export.csv",
-      "bytes": 119779
     },
     {
       "path": "simulations/gait-0.3/run_log.txt",
@@ -133,6 +149,10 @@
       "bytes": 9998
     },
     {
+      "path": "simulations/gait-0.4/fourier_sensitivity/test_params.py",
+      "bytes": 4412
+    },
+    {
       "path": "simulations/gait-0.4/Team_Unicorn_Fourier_0.4_README.md",
       "bytes": 4057
     },
@@ -141,32 +161,24 @@
       "bytes": 34885
     },
     {
-      "path": "simulations/gait-0.4/Team_Unicorn_Fourier_probe.json",
-      "bytes": 45749
-    },
-    {
       "path": "simulations/gait-0.4/Team_Unicorn_Fourier_probe_results.csv",
       "bytes": 7262
     },
     {
-      "path": "simulations/gait-0.4/fourier_sensitivity/test_params.py",
-      "bytes": 4412
+      "path": "simulations/gait-0.4/Team_Unicorn_Fourier_probe.json",
+      "bytes": 45749
     },
     {
       "path": "simulations/gait-0.4/team_unicorn_fourier_probe.py",
       "bytes": 4322
     },
     {
-      "path": "simulations/gait-0.5/README.md",
-      "bytes": 3618
-    },
-    {
-      "path": "simulations/gait-0.5/Team_Unicorn_Fourier_Gait_Lab_0.5_1M.html",
-      "bytes": 511693
-    },
-    {
       "path": "simulations/gait-0.5/bins_10000.csv",
       "bytes": 5944
+    },
+    {
+      "path": "simulations/gait-0.5/README.md",
+      "bytes": 3618
     },
     {
       "path": "simulations/gait-0.5/results_100k.csv",
@@ -179,6 +191,10 @@
     {
       "path": "simulations/gait-0.5/summary.json",
       "bytes": 35250
+    },
+    {
+      "path": "simulations/gait-0.5/Team_Unicorn_Fourier_Gait_Lab_0.5_1M.html",
+      "bytes": 511693
     },
     {
       "path": "simulations/gait-0.5/team_unicorn_fourier_probe.py",
@@ -197,8 +213,8 @@
       "bytes": 16686062
     },
     {
-      "path": "simulations/gait-0.6/README.md",
-      "bytes": 1249
+      "path": "simulations/gait-0.6.1/index.html",
+      "bytes": 14177
     },
     {
       "path": "simulations/gait-0.6/feedback_probe.py",
@@ -213,12 +229,12 @@
       "bytes": 901
     },
     {
-      "path": "simulations/gait-0.6/results.csv",
-      "bytes": 2855
+      "path": "simulations/gait-0.6/README.md",
+      "bytes": 1249
     },
     {
-      "path": "simulations/gait-0.6.1/index.html",
-      "bytes": 14177
+      "path": "simulations/gait-0.6/results.csv",
+      "bytes": 2855
     }
   ]
 }
