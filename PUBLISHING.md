@@ -13,7 +13,7 @@ python3 scripts/verify_release.py
 git log -5 --oneline
 ```
 
-**Checksum note:** `SHA256SUMS` records the original v0.7 packaged files. It is not a checksum manifest for later v0.7.1 Markdown addenda and modified README/CHANGELOG. Treat it as the historical baseline rather than assuming its entire list remains current.
+**Checksum note:** `SHA256SUMS` and `MANIFEST.json` will track the current v0.7.1 repository snapshot, including the four living Markdown addenda and updated project guides. The original v0.7 snapshot remains available in Git history, prior to the v0.7.1 commits.
 
 ## Current scientific scope
 
